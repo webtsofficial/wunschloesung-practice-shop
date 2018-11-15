@@ -5,12 +5,20 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './components/sites/home/home.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCardModule, MatIconModule, MatMenuModule, MatToolbarModule, MatSidenavModule, MatListModule} from '@angular/material';
+import {
+    MatButtonModule,
+    MatCardModule,
+    MatIconModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule
+} from '@angular/material';
 import { MainNavigationComponent } from './components/navigation/main-navigation/main-navigation.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import {FormsModule} from "@angular/forms";
+import {FormsModule} from '@angular/forms';
 import { NotFoundComponent } from './components/sites/not-found/not-found.component';
-import {CommonModule} from "@angular/common";
+import {CommonModule} from '@angular/common';
 
 @NgModule({
     declarations: [

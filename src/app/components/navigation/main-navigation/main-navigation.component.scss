@@ -1,9 +1,14 @@
+@import "../../../../styles/variables";
+@import "../../../../styles/mixins";
+
+
 .sidenav-container {
   height: 100%;
 }
 
 .sidenav {
-  width: 200px;
+  width: 250px;
+  background-color: $color-primary-dark;
 }
 
 .sidenav .mat-toolbar {
@@ -11,6 +16,7 @@
 }
 
 .mat-toolbar {
+  background-color: $color-primary;
   .mat-primary {
     position: sticky;
     top: 0;
